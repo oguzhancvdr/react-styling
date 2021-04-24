@@ -1,0 +1,26 @@
+@import 'reset';
+@import 'globals';
+@import 'button';
+
+.container{
+    height: 50vh;
+    background-color: #b0b0b0;
+    text-align: center;
+    margin:10px;
+
+    h1{
+        color:steelblue;
+    }
+
+    p{
+        color:#fff;
+        font-size: large;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+    &:hover{
+        background-color: burlywood;
+    }
+    
+}

@@ -1,0 +1,30 @@
+.button-container {
+  display: flex;
+  justify-content: center;
+
+  .button {
+    border-radius: 5px;
+    color: #fff;
+  }
+//   .button-container--small {
+//     background-color: steelblue;
+//     padding: 5px;
+//   }
+//   .button-container--large {
+//     background-color: crimson;
+//     padding: 10px 15px;
+//     margin-left: 10px;
+//   }
+
+  &-- {
+    &small {
+      background-color: $primaryTextColor;
+      padding: 5px;
+    }
+    &large {
+      background-color: $secondaryTextColor;
+      padding: 10px 15px;
+      margin-left: 10px;
+    }
+  }
+}
