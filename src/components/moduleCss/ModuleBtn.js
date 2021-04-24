@@ -1,9 +1,12 @@
+import styles from './moduleBtn.module.css'
 
-
-const ModuleBtn = () => {
+const ModuleBtn = ({btnClass, btnName}) => {
+    console.log(styles);
     return(
-        <div>
-            <button>Click</button>
+        <div className={styles.main}>
+            <button className={styles[btnClass]}>{btnName}</button>
         </div>
     )
 }
+
+export default ModuleBtn;

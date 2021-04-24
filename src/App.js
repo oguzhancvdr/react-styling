@@ -6,14 +6,16 @@ import './styles.css'
 import styles from './styles.module.css'
 
 const App = () => {
-  console.log("styles obj: ", styles);
+  // console.log("styles obj: ", styles);
   return (
     <div>
-      <Inline />     
+      {/* <Inline />      */}
       {/* <StyleSheet primary={false} /> */}
-      {/* <ModuleBtn /> */}
-      {/* <h1 className="error">Something went wrong</h1> */}
-      {/* <h1 className={styles.success}>200 OK success </h1> */}
+      <h1>Module Css</h1>
+      <ModuleBtn btnClass="primary" btnName="Module" />
+      <ModuleBtn  btnClass="secondary" btnName="CSS" />
+      {/* <h1 className="error">Something went wrong</h1>
+      {/*<h1 className={styles.success}>200 OK success </h1> */}
     </div>
   );
 };

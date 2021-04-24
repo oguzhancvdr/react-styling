@@ -1,0 +1,34 @@
+.main{
+    
+    text-align: center;
+}
+
+.primary{
+    cursor: pointer;
+    background-color:#0069d9;
+    border-radius: 2px;
+    padding: 8px;
+    font-size: 1rem;
+    color:#fff;
+    width: 5rem;
+    border: none;
+    margin:5px;
+}
+.primary:hover{
+    background-color: #004084;
+}
+
+.secondary{
+    cursor: pointer;
+    background-color: #5a6268;
+    border-radius: 2px;
+    padding: 8px;
+    font-size: 1rem;
+    color: #fff;
+    width: 5rem;
+    border: none;
+    margin: 5px;
+}
+.secondary:hover{
+    background-color: #3d4347;
+}
