@@ -1,9 +1,7 @@
-import styles from './moduleBtn.module.css'
-
-const ModuleBtn = ({btnClass, btnName}) => {
+const ModuleBtn = () => {
     return(
-        <div className={styles.main}>
-            <button className={styles[btnClass]}>{btnName}</button>
+        <div >
+            <button >Module Btn without style.</button>
         </div>
     )
 }
