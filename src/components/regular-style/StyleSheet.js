@@ -1,5 +1,3 @@
-import "./styleSheet.css";
-
 const StyleSheet = () => {
   return (
     <div>
