@@ -1,1 +1,10 @@
+.button-container{
+    display: flex;
+    justify-content: center;
 
+    .button{
+        border-radius: 5px;
+        color:#fff;
+    }
+
+}
